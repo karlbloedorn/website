@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <title></title>
+    <style>
+      html, body{
+        font-family: 'Roboto', sans-serif;
+      }
+     body{
+        color: white;
+        background-image: url('resources/gradient_bar.svg');
+     }
+     #pic{
+        position: absolute;
+        top: 170px;
+        left: 30px;
+        padding: 5px;
+        background-color: white;
+        border: 2px solid #222;
+        -webkit-box-shadow: 6px 0px 24px -6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 6px 0px 24px -6px rgba(0,0,0,0.75);
+        box-shadow: 6px 0px 24px -6px rgba(0,0,0,0.75);
+     }
+     
+     #card{
+        position: absolute;
+        top: 20px;
+        left: 60px;
+        padding: 0px;
+     }
+     #links{
+        position: absolute;
+        top: 300px;
+        left: 190px;
+        padding: 5px;
+        cursor: hover;
+     }
+     a, a:hover, a:visited{
+      color: white;
+      text-decoration: none;
+     }
+     .link {
+      padding: 15px;
+     }
+     #skills{
+     position: absolute;
+        top: 350px;
+        left: 110px;
+      width: 380px;
+       font-size: 2em;
+       cursor: pointer;
+     }
+    </style>
+  </head>
+  <body>
+  <img id='card' src='resources/business card.png' height='250'>
+    
+    <img id='pic' src='resources/karl.jpg' height='120'>
+  
+    <div id='links'>
+    
+      <span class='link'>
+        <a href='https://github.com/karlbloedorn'> <i class="fa fa-github" aria-hidden="true"></i> Github</a>
+      </span>
+    
+      <span class='link'>
+        <a href='resources/resume.pdf'> <i class="fa fa-download" aria-hidden="true"></i> Resume</a>
+        <sup>(<a href='resources/resume.pdf'>LaTeX</a>)</sup>
+      </span>
+      
+    <span class='link'>
+        <a href='https://www.linkedin.com/in/karl-bloedorn-27a24019/'> <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+ LinkedIn</a>
+      </span>
+      
+      <span class='link'>
+      </span>
+      
+      <!--
+      <br><br><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+karl <i class="fa fa-at" aria-hidden="true"></i> bloedorn.us
+-->
+      </div>
+      <div id='skills'>
+     
+        <i class="fa fa-bluetooth" title="Tooltip on left"></i>
+        <i class="fa fa-cloud" aria-hidden="true"></i>
+        <i class="fa fa-microchip" aria-hidden="true"></i>
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <i class="fa fa-map" aria-hidden="true"></i>
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <i class="fa fa-mobile" aria-hidden="true"></i>
+        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+        <i class="fa fa-android" aria-hidden="true"></i>
+        <i class="fa fa-apple" aria-hidden="true"></i>
+        <i class="fa fa-windows" aria-hidden="true"></i>
+        <i class="fa fa-html5" aria-hidden="true"></i>
+        <i class="fa fa-git-square" aria-hidden="true"></i>
+        <i class="fa fa-linux" aria-hidden="true"></i>
+        <i class="fa fa-code-fork" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <i class="fa fa-music" aria-hidden="true"></i>
+        <i class="fa fa-database" aria-hidden="true"></i>
+        <i class="fa fa-bolt" aria-hidden="true"></i>
+        <i class="fa fa-cube" aria-hidden="true"></i>
+      </div>
+
+      
+ 
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.9/lunr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/native.history.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script>
+      $(document).ready(function(){
+       $('[data-toggle="tooltip"]').tooltip()
+      });
+         
+       
+    </script>
+  </body>
+</html>
+
+
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
